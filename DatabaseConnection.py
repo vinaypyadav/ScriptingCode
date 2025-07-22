@@ -2,17 +2,12 @@ import psycopg2
 
 def get_postgres_connection(
     # host="localhost",
-    # port=5432,
-    # dbname="mdm_play",
-    # user="postgres",
-    # password="bitxia"
-   #dev db
-
-    host="172.236.189.244",   
-    port=5433,
+    port=5432,
     dbname="mdm_play",
-    user="dbadmin",
-    password="Tajub#riw^75"
+    user="postgres",
+    password="bitxia"
+   dev db
+
 ):
     """
     Returns a PostgreSQL connection object.
